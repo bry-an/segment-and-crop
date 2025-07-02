@@ -29,7 +29,7 @@ dedupe-report:
 	$(PY) src/dedupe.py data/combined --threshold 10
 
 manifest:
-	$(PY) src/split_manifest.py
+	$(PY) src/manifest.py --root data/combined --out manifest.csv
 
 # ---- Docker image names
 SEGMENT_IMG   = segment

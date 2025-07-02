@@ -3,4 +3,4 @@ models/
 !models/.gitkeep
 data/
 !data/.gitkeep
-.vscode/
+manifest.csv
